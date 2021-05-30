@@ -50,6 +50,7 @@ class CartController extends Controller
             $line_item = [
                 'name'        => $product->name,
                 'description' => $product->description,
+                // 料金
                 'amount'      => $product->price,
                 'currency'    => 'jpy',
                 'quantity'    => $product->pivot->quantity,
