@@ -10121,7 +10121,7 @@ a:active {
 
 @media (max-width: 600px) {
   .top-img {
-    background-image: url(/images/top2.jpg?7a35392a1d94014c81d15b929b3d5b0d);
+    background-image: url(/images/top2.jpg);
     height: 300px;
   }
 }
